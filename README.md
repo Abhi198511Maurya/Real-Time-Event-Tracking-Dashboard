@@ -40,3 +40,16 @@ A powerful, real-time **event tracking backend system** built with **Node.js, Ex
    ```bash
    git clone https://github.com/yourusername/event-tracking-backend.git
    cd event-tracking-backend
+2. **Install dependencies:**
+    ```bash
+    npm install
+3. **Start MongoDB (locally or via Atlas)**
+    Update MongoDB URI in .env if needed.
+
+4. **Run the server:**
+    ```bash
+    npm start
+5. **Test with Postman:**
+    Send POST requests to:
+    ```bash
+    http://localhost:5000/api/events
